@@ -1,0 +1,24 @@
+.inputContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.citySelect {
+  width: 50%;
+  padding-left: 1vh;
+}
+
+.optionSelect {
+  width: 50%;
+  margin-left: 3vh;
+  padding-left: 1vh;
+}
+.searchBox {
+  margin-left: 3vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 3vh;
+}

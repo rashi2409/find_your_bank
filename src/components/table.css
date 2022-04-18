@@ -1,0 +1,67 @@
+table {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table td,
+table th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+table th,
+tfoot td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+.filters {
+  margin-top: 3vh;
+  margin-right: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.navbutton {
+  border-radius: 5px;
+  border: 0px;
+  height: 4vh;
+  padding-left: 2vh;
+  padding-right: 2vh;
+  margin: 0.5vh;
+}
+
+.selectField {
+  border-radius: 5px;
+  border: 0px;
+  height: 4vh;
+  background-color: #d3d3d3;
+  margin-right: 1vh;
+}
+
+.pageNumber {
+  margin-left: 1vh;
+  margin-right: 1vh;
+}
+
+.headerContainer {
+  margin: 3vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
